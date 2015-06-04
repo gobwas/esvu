@@ -1,0 +1,42 @@
+{
+  "name": "esvu",
+  "version": "0.1.0",
+  "description": "ECMAScript Variable Usage",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ast-traverse": "^0.1.1",
+    "esprima": "^2.2.0",
+    "estraverse": "^4.1.0",
+    "inherits-js": "^0.1.0",
+    "json-honey": "^0.4.1",
+    "lodash": "^3.9.3",
+    "lodash-cli": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gobwas/esvu.git"
+  },
+  "keywords": [
+    "ecma",
+    "script",
+    "ast",
+    "parsing",
+    "variable",
+    "types",
+    "usage",
+    "calls"
+  ],
+  "author": "Sergey Kamardin <gobwas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gobwas/esvu/issues"
+  },
+  "homepage": "https://github.com/gobwas/esvu"
+}
