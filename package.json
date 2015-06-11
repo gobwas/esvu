@@ -1,10 +1,12 @@
 {
   "name": "esvu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ECMAScript Variable Usage",
   "main": "index.js",
-  "directories": {
-    "test": "test"
+  "author": {
+    "name": "Sergey Kamardin",
+    "email": "gobwas@gmail.com",
+    "url": "https://github.com/gobwas"
   },
   "dependencies": {
     "ast-traverse": "^0.1.1",
