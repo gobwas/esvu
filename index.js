@@ -5,5 +5,5 @@ module.exports = {
     Property:     require("./lib/id").Property,
     Call:         require("./lib/id").Call,
     Binding:      require("./lib/id").Binding,
-    Context:      require("./lib/id").Context,
+    Context:      require("./lib/context")
 };
