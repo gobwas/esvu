@@ -1,4 +1,1 @@
-var Grid       = require("./grid"),
-    _          = require("lodash");
-
-_.forEach();
+a.b(z.a);

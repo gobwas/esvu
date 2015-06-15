@@ -54,4 +54,4 @@ context.on("scope", function(scope) {
 
 parser.parse(fs.readFileSync(path.resolve(__dirname, "./fixture/test.js")), context);
 
-//console.log(honey(context, { circular: true }));
+console.log(honey(context, { circular: true }));
